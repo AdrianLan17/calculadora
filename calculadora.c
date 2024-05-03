@@ -29,10 +29,12 @@ printf("Multiplicação:%d\n", num1 * num2);
 break;
 case 4: 
 while ( num2 == 0){
+	if{
 printf(" Nao existe divisao por zero\n Digite outro valor:");
 scanf("%d",&num2);
 }
-printf("Divisão:%d",num1/num2);
+	else{
+printf("Divisão:%d",num1/num2);}
 break;
 
 default: 
